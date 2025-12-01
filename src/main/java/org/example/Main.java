@@ -8,9 +8,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String url = "jdbc:postgresql://localhost:5432/expense";
+        String url = "jdbc:postgresql://localhost:5432/your_db";
         String user = "postgres";
-        String password = "tsilakely2220";
+        String password = "your_password";
 
         try (Connection connection = DriverManager.getConnection(url, user, password)) {
             System.out.println("Connexion réussie !");
